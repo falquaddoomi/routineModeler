@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Routine Modeler v0.1 :: {% block title %}home{% endblock %}</title>
+
+        <link rel="stylesheet" href="{{ STATIC_URL }}modeler/css/modeler.css" />
+
+        <script type="text/javascript" src="{{ STATIC_URL }}js/jquery-1.7.1.min.js"></script>
+
+        <style>
+            {% block style %}{% endblock %}
+        </style>
+
+        <script type="text/javascript">
+            {% block script %}{% endblock %}
+        </script>
+    </head>
+
+    <body>
+        <div id="trunk">
+            <div id="header" class="card">
+                <h1>Routine Modeler v0.1</h1>
+            </div>
+
+            {% block content %}{% endblock %}
+
+            <div id="footer">
+                copyright © 2012 MobilizeLabs - all rights reserved
+            </div>
+        </div>
+    </body>
+</html>
