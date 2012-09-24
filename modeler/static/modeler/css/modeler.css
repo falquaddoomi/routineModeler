@@ -48,7 +48,9 @@ a { text-decoration: none; color: #5e89bc; }
     background-image: url('/static/icons/cc/black/sq_plus_icon&24.png');
 }
 
-.section h2 { margin: 0; margin-top: 6px; padding-bottom: 6px; }
+.card .hugger { border-left: solid 40px #eee; padding-left: 5px; }
+
+.section h2 { margin: 5px 0px 0px 10px; padding-bottom: 6px; }
 
 .section .content { padding: 0; margin: 0; }
 
