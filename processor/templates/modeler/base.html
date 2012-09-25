@@ -18,18 +18,28 @@
     </head>
 
     <body>
+        <div id="header">
+            <h1>Routine Modeler v0.1</h1>
+        </div>
+
         <div id="trunk">
-            <div id="header">
-                <h1>Routine Modeler v0.1</h1>
+            <div id="sidebar">
+                <ul>
+                    <li>Authentication</li>
+                    <li>Tasks</li>
+                    <li>Traces</li>
+                    <li>Models</li>
+                    <li>Summary</li>
+                </ul>
             </div>
 
-            <div id="content" class="pane">
+            <div id="content">
             {% block content %}{% endblock %}
             </div>
+        </div>
 
-            <div id="footer">
-                copyright © 2012 MobilizeLabs - all rights reserved
-            </div>
+        <div id="footer">
+            Copyright © 2012 MobilizeLabs - all rights reserved
         </div>
     </body>
 </html>

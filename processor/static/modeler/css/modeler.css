@@ -1,0 +1,44 @@
+html { overflow-y: scroll; }
+
+body {
+    font-family: Tahoma, sans-serif; margin: 0; padding: 0;
+    background: #ccc;
+}
+
+a { text-decoration: none; color: #5e89bc; }
+
+/*
+===============================
+=== PAGE STRUCTURE
+===============================
+*/
+
+#header {
+    margin: 0; padding: 20px;
+    background: #c3cbcc;
+    border: 1px solid white;
+    border-right-color: #555;
+    border-bottom-color: #555;
+
+    text-shadow:-1px -1px 0 rgba(0,0,0,0.5); color: white;
+}
+
+#header h1 { margin: 0; }
+
+#footer {
+    font-size: 11px; color: #555; padding: 20px;
+    clear: both;
+}
+
+#trunk {
+    position: relative; overflow: none;
+}
+
+#trunk #sidebar { width: 200px; float: left; background: red; }
+#trunk #content { float: left; background: blue; }
+
+/*
+===============================
+=== ELEMENT-SPECIFIC
+===============================
+*/

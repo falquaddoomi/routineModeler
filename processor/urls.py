@@ -1,7 +1,7 @@
 from django.conf.urls import patterns, url
 import views
 
-urlpatterns = patterns('routineModeler.modeler.views',
+urlpatterns = patterns('processor.views',
     # main page
     url(r'^$', views.home, name="home"),
 

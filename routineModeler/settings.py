@@ -128,7 +128,7 @@ INSTALLED_APPS = (
     'djcelery',
 
     # local apps
-    'modeler',
+    'processor',
 )
 
 # A sample logging configuration. The only tangible logging
