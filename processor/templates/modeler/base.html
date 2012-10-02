@@ -4,6 +4,8 @@
     <head>
         <title>Routine Modeler v0.1 :: {% block title %}home{% endblock %}</title>
 
+        <link rel="shortcut icon" href="{{ STATIC_URL }}modeler/images/favicon.ico" />
+
         <link rel="stylesheet" href="{{ STATIC_URL }}modeler/css/modeler.css" />
 
         <script type="text/javascript" src="{{ STATIC_URL }}js/jquery-1.7.1.min.js"></script>
@@ -22,19 +24,26 @@
             <h1>Routine Modeler v0.1</h1>
         </div>
 
+        <!-- invisible url definitions here; sorry, future html readers -->
+        {% url processor:auth as auth_url %}
+        {% url processor:tasks as tasks_url %}
+        {% url processor:traces as traces_url %}
+        {% url processor:models as models_url %}
+        {% url processor:summary as summary_url %}
+
         <div id="trunk">
             <div id="sidebar">
                 <ul>
-                    <li>Authentication</li>
-                    <li>Tasks</li>
-                    <li>Traces</li>
-                    <li>Models</li>
-                    <li>Summary</li>
+                    <li><a class="auth {% if request.path == auth_url %}active{% endif %}" href="{{ auth_url }}">Authentication</a></li>
+                    <li><a class="tasks {% if request.path == tasks_url %}active{% endif %}" href="{{ tasks_url }}">Tasks</a></li>
+                    <li><a class="traces {% if request.path == traces_url %}active{% endif %}" href="{{ traces_url }}">Traces</a></li>
+                    <li><a class="models {% if request.path == models_url %}active{% endif %}" href="{{ models_url }}">Models</a></li>
+                    <li><a class="summary {% if request.path == summary_url %}active{% endif %}" href="{{ summary_url }}">Summary</a></li>
                 </ul>
             </div>
 
             <div id="content">
-            {% block content %}{% endblock %}
+                {% block content %}{% endblock %}
             </div>
         </div>
 

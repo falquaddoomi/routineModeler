@@ -110,6 +110,17 @@ WSGI_APPLICATION = 'routineModeler.wsgi.application'
 
 TEMPLATE_DIRS = ('C:/Users/Faisal/PycharmProjects/routineModeler/templates',)
 
+TEMPLATE_CONTEXT_PROCESSORS = (
+    "django.contrib.auth.context_processors.auth",
+    "django.core.context_processors.debug",
+    "django.core.context_processors.i18n",
+    "django.core.context_processors.media",
+    "django.core.context_processors.static",
+    "django.core.context_processors.tz",
+    "django.contrib.messages.context_processors.messages",
+    "django.core.context_processors.request"
+    )
+
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -160,7 +171,25 @@ LOGGING = {
     }
 }
 
+# =======================
 # for celery task queue manager
+# =======================
 import djcelery
 CELERY_DISABLE_RATE_LIMITS = True
+CELERY_IMPORTS = (
+    'processor.tasks.fun'
+)
+CELERYBEAT_SCHEDULER = 'djcelery.schedulers.DatabaseScheduler'
+BROKER_URL = 'django://'
 djcelery.setup_loader()
+
+# =======================
+# Ohmage Sync Settings
+# =======================
+import uuid
+OHMAGE_SYNC_UUID = uuid.UUID('42188979-8191-44cd-9eef-3ee7f2bbe686')
+
+# Ohmage Settings
+OHMAGE_SERVER = 'https://dev.mobilizingcs.org'
+
+AUTH_PROFILE_MODULE = 'processor.Profile'

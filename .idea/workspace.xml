@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="893d1ec8-d837-4335-a88c-70b04fa09e87" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/processor/static/modeler/css/modeler.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/processor/templates/modeler/subviews/home.html" />
-      <change type="DELETED" beforePath="C:\Users\Faisal\PycharmProjects\routineModeler\modeler\static\modeler\css\modeler.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Faisal\PycharmProjects\routineModeler\modeler\templates\modeler\subviews\home.html" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Faisal\PycharmProjects\routineModeler\modeler\__init__.py" afterPath="$PROJECT_DIR$/processor/__init__.py" />
-      <change type="MOVED" beforePath="C:\Users\Faisal\PycharmProjects\routineModeler\modeler\migrations\0001_initial.py" afterPath="$PROJECT_DIR$/processor/migrations/0001_initial.py" />
-      <change type="MOVED" beforePath="C:\Users\Faisal\PycharmProjects\routineModeler\modeler\migrations\__init__.py" afterPath="$PROJECT_DIR$/processor/migrations/__init__.py" />
-      <change type="MOVED" beforePath="C:\Users\Faisal\PycharmProjects\routineModeler\modeler\models.py" afterPath="$PROJECT_DIR$/processor/models.py" />
-      <change type="MOVED" beforePath="C:\Users\Faisal\PycharmProjects\routineModeler\modeler\templates\modeler\base.html" afterPath="$PROJECT_DIR$/processor/templates/modeler/base.html" />
-      <change type="MOVED" beforePath="C:\Users\Faisal\PycharmProjects\routineModeler\modeler\tests.py" afterPath="$PROJECT_DIR$/processor/tests.py" />
-      <change type="MOVED" beforePath="C:\Users\Faisal\PycharmProjects\routineModeler\modeler\urls.py" afterPath="$PROJECT_DIR$/processor/urls.py" />
-      <change type="MOVED" beforePath="C:\Users\Faisal\PycharmProjects\routineModeler\modeler\views.py" afterPath="$PROJECT_DIR$/processor/views.py" />
+      <change type="DELETED" beforePath="C:\Users\Faisal\PycharmProjects\routineModeler\processor\tasks\__init__.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processor/models.py" afterPath="$PROJECT_DIR$/processor/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processor/static/modeler/css/modeler.css" afterPath="$PROJECT_DIR$/processor/static/modeler/css/modeler.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processor/templates/modeler/base.html" afterPath="$PROJECT_DIR$/processor/templates/modeler/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processor/templates/modeler/subviews/home.html" afterPath="$PROJECT_DIR$/processor/templates/modeler/subviews/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processor/urls.py" afterPath="$PROJECT_DIR$/processor/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/processor/views.py" afterPath="$PROJECT_DIR$/processor/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routineModeler/settings.py" afterPath="$PROJECT_DIR$/routineModeler/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routineModeler/urls.py" afterPath="$PROJECT_DIR$/routineModeler/urls.py" />
     </list>
@@ -36,19 +31,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/processor/templates/modeler/base.html">
+      <file leaf-file-name="modeler.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/processor/static/modeler/css/modeler.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="14" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.7307692">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processor/templates/modeler/subviews/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="14" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+            <state line="84" column="34" selection-start="2733" selection-end="2733" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -57,16 +43,34 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/processor/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+            <state line="7" column="47" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modeler.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/processor/static/modeler/css/modeler.css">
+      <file leaf-file-name="auth.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/processor/templates/modeler/subviews/auth.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="18" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+            <state line="5" column="4" selection-start="106" selection-end="109" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/processor/templates/modeler/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="44" selection-start="793" selection-end="793" vertical-scroll-proportion="0.24020442">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routineModeler/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="122" column="0" selection-start="4466" selection-end="4466" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -85,24 +89,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/routineModeler/urls.py" />
-        <option value="$PROJECT_DIR$/modeler/templates/base.html" />
-        <option value="$PROJECT_DIR$/modeler/templates/subviews/home.html" />
-        <option value="$PROJECT_DIR$/modeler/views.py" />
-        <option value="$PROJECT_DIR$/routineModeler/settings.py" />
         <option value="$PROJECT_DIR$/modeler/urls.py" />
         <option value="$PROJECT_DIR$/modeler/templates/modeler/base.html" />
         <option value="$PROJECT_DIR$/modeler/templates/modeler/subviews/home.html" />
         <option value="$PROJECT_DIR$/modeler/static/modeler/css/modeler.css" />
+        <option value="$PROJECT_DIR$/processor/tasks/add.py" />
+        <option value="$PROJECT_DIR$/processor/tasks/fun.py" />
+        <option value="$PROJECT_DIR$/routineModeler/urls.py" />
+        <option value="$PROJECT_DIR$/processor/models.py" />
+        <option value="$PROJECT_DIR$/processor/templates/modeler/subviews/tasks.html" />
+        <option value="$PROJECT_DIR$/processor/views.py" />
+        <option value="$PROJECT_DIR$/processor/templates/modeler/subviews/auth.html" />
+        <option value="$PROJECT_DIR$/processor/templates/modeler/subviews/home.html" />
+        <option value="$PROJECT_DIR$/processor/static/modeler/css/modeler.css" />
+        <option value="$PROJECT_DIR$/routineModeler/settings.py" />
+        <option value="$PROJECT_DIR$/processor/urls.py" />
         <option value="$PROJECT_DIR$/processor/templates/modeler/base.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1362" />
+    <option name="x" value="-4" />
     <option name="y" value="-4" />
-    <option name="width" value="1288" />
-    <option name="height" value="1032" />
+    <option name="width" value="1374" />
+    <option name="height" value="748" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -130,6 +140,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -158,27 +169,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="routineModeler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routineModeler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routineModeler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="processor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routineModeler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routineModeler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="processor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modeler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../virtualenvs" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/processor/static/modeler/css/modeler.css" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="PublishConfig">
+  <component name="PublishConfig" serverName="Hrungnir ohmProjects" serverId="dacf8f82-51f3-4a05-a2c1-64bf139f72a0" autoUpload="true">
     <servers>
       <server id="3b7d1f73-94cf-4497-b8ad-6e0e24e81699">
         <serverdata />
@@ -187,7 +233,11 @@
         <serverdata />
       </server>
       <server id="dacf8f82-51f3-4a05-a2c1-64bf139f72a0">
-        <serverdata />
+        <serverdata>
+          <mappings>
+            <mapping deploy="/routineModeler" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
       </server>
       <server id="f161fa4f-a2ca-4cbb-b254-697d63109cc8">
         <serverdata />
@@ -204,13 +254,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Faisal\PycharmProjects\routineModeler\processor\templates\modeler\subviews" />
       <recent name="C:\Users\Faisal\PycharmProjects\routineModeler\routineModeler\static" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Faisal\PycharmProjects\routineModeler\processor\static\modeler\images" />
+      <recent name="C:\Users\Faisal\PycharmProjects\routineModeler\processor\tasks" />
+      <recent name="C:\Users\Faisal\PycharmProjects\routineModeler\processor" />
       <recent name="C:\Users\Faisal\PycharmProjects\routineModeler\modeler\static\modeler\images" />
       <recent name="C:\Users\Faisal\PycharmProjects\routineModeler\modeler\templates\modeler" />
-      <recent name="C:\Users\Faisal\PycharmProjects\routineModeler" />
-      <recent name="C:\Users\Faisal\PycharmProjects\routineModeler\routineModeler" />
     </key>
   </component>
   <component name="RunManager" selected="Django server.routineModeler">
@@ -228,6 +280,41 @@
       <option name="TARGET" value="" />
       <option name="SETTINGS_FILE" value="" />
       <option name="CUSTOM_SETTINGS" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="routineModeler" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="MULTIPROCESS" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="routineModeler" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
@@ -251,25 +338,6 @@
       <option name="customRunCommand" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <module name="routineModeler" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,6 +354,13 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
@@ -356,24 +431,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1362" y="-4" width="1288" height="1032" extended-state="6" />
+    <frame x="-4" y="-4" width="1374" height="748" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23636363" sideWeight="0.3264" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24878444" sideWeight="0.6704" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2439394" sideWeight="0.6704" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23636363" sideWeight="0.3344" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -432,106 +508,120 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routineModeler/settings.py">
+    <entry file="file://$PROJECT_DIR$/processor/tasks/fun.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="11" selection-start="2309" selection-end="2309" vertical-scroll-proportion="0.0">
+        <state line="12" column="39" selection-start="303" selection-end="303" vertical-scroll-proportion="0.34">
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/static/modeler/images/husk.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.45333335">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="35" selection-start="665" selection-end="665" vertical-scroll-proportion="0.53833336">
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/templates/modeler/subviews/tasks.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/templates/modeler/subviews/traces.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/templates/modeler/subviews/models.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/templates/modeler/subviews/summary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="32" selection-start="3437" selection-end="3437" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#57#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/processor/templates/modeler/subviews/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
+        <state line="3" column="34" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1349121833694" expanded="true" signature="108:607" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processor/templates/modeler/subviews/auth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="4" selection-start="106" selection-end="109" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/processor/static/modeler/css/modeler.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="20" selection-start="609" selection-end="609" vertical-scroll-proportion="0.0">
+        <state line="84" column="34" selection-start="2733" selection-end="2733" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routineModeler/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="11" selection-start="2309" selection-end="2309" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processor/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.45333335" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processor/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="51" selection-start="162" selection-end="162" vertical-scroll-proportion="0.11333334">
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routineModeler/static/js/jquery-1.7.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routineModeler/static/icons/silk/accept.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routineModeler/static/icons/silk/cross.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routineModeler/static/icons/silk/database_connect.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routineModeler/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="33" selection-start="5491" selection-end="5491" vertical-scroll-proportion="0.8016667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routineModeler/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="66" selection-start="444" selection-end="444" vertical-scroll-proportion="0.36833334">
+        <state line="122" column="0" selection-start="4466" selection-end="4466" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/processor/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+        <state line="7" column="47" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/processor/templates/modeler/subviews/home.html">
+    <entry file="file://$PROJECT_DIR$/routineModeler/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="14" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processor/static/modeler/css/modeler.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="593" selection-end="593" vertical-scroll-proportion="0.51">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/processor/templates/modeler/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="14" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.7307692">
+        <state line="27" column="44" selection-start="793" selection-end="793" vertical-scroll-proportion="0.24020442">
           <folding />
         </state>
       </provider>
